@@ -1,0 +1,423 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+/* 给最大盒子设置样式---整个轮播图放置位置的盒子 */
+
+.carousel {
+    width: 100%;
+    height: 380px;
+    margin: 0px auto;
+    /* 定位 */
+    position: relative;
+}
+
+
+/* 放置图片的盒子 */
+
+.cal-list {
+    width: 100%;
+    height: 380px;
+    /* ul需要移动 */
+    position: relative;
+    overflow: hidden;
+    margin: 0px auto;
+}
+
+
+/* ul元素 */
+
+.viewpage {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 5760px;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+    margin: 0px auto;
+}
+
+.viewpage li:nth-child(1) {
+    background-color: rgb(53, 53, 53);
+    float: left;
+    width: 1920px;
+}
+
+.viewpage li:nth-child(2) {
+    background-color: rgb(31, 193, 138);
+    float: left;
+    width: 1920px;
+}
+
+.viewpage li:nth-child(3) {
+    background-color: rgb(72, 61, 105);
+    float: left;
+    width: 1920px;
+}
+
+.viewpage li .img1 {
+    height: 380px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.viewpage li .img1 a {
+    width: 1022px;
+    height: 380px;
+    display: block;
+    left: 530px;
+    float: left;
+}
+
+.img1 a {
+    position: absolute;
+    top: 0;
+}
+
+.viewpage li a img {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+
+/* 小圆点最大的盒子 */
+
+.circle-list {
+    position: absolute;
+    bottom: 20px;
+    width: 62px;
+    /* height: ; */
+    padding: 5px;
+    left: 50%;
+    margin-left: -50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+
+.circle {
+    float: left;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-left: 6px;
+}
+
+.active {
+    background-color: #ff5e00;
+}
+
+.prev,
+.next {
+    display: none;
+}
+
+
+/* //二级导航 */
+
+.header-twonav {
+    position: absolute;
+    top: 42px;
+    left: 0px;
+    width: 200px;
+    height: 380px;
+    z-index: 11;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.twonav-ul li {
+    width: 200px;
+    height: 53px;
+    position: relative;
+}
+
+.twonav-ul li:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.twonav-ul li a:hover {
+    color: red;
+}
+
+.twonav-ul li a {
+    width: 200px;
+    height: 53px;
+    overflow: hidden;
+    display: block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #fff;
+    line-height: 53px;
+}
+
+.twonav-ul li a span {
+    display: inline-block;
+    margin-left: 0px;
+    font-size: 14px;
+}
+
+
+/* //小图标 */
+
+.icon-a {
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    display: inline-block;
+    width: 22px;
+    height: 30px;
+    background: url(../images/jlt.png) no-repeat 0px 0px;
+}
+
+.icon-b {
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    display: inline-block;
+    width: 22px;
+    height: 30px;
+    background: url(../images/jlt.png) no-repeat 0px -55px;
+}
+
+.icon-c {
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    display: inline-block;
+    width: 22px;
+    height: 30px;
+    background: url(../images/jlt.png) no-repeat 0px -110px;
+}
+
+.icon-d {
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    display: inline-block;
+    width: 22px;
+    height: 30px;
+    background: url(../images/jlt.png) no-repeat 0px -165px;
+}
+
+.icon-e {
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    display: inline-block;
+    width: 22px;
+    height: 30px;
+    background: url(../images/jlt.png) no-repeat 0px -217px;
+}
+
+.icon-f {
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    display: inline-block;
+    width: 22px;
+    height: 30px;
+    background: url(../images/jlt.png) no-repeat 0px -271px;
+}
+
+.icon-g {
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    display: inline-block;
+    width: 22px;
+    height: 30px;
+    background: url(../images/jlt.png) no-repeat 0px -328px;
+}
+
+
+/* //主体 */
+
+.body-father {
+    max-width: 1920px;
+    height: 870px;
+    padding: 20px 0 0;
+    margin: 0 auto;
+    margin-bottom: 90px;
+}
+
+h1 {
+    width: 1200px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.son1 {
+    width: 1200px;
+    height: 350px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.son1-box-l {
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+
+.son1-box-r {
+    width: 300px;
+    height: 300px;
+    float: right;
+}
+
+.son1-box-conter {
+    width: 600px;
+    height: 300px;
+    display: inline-block;
+}
+
+.son2 {
+    width: 1200px;
+    height: 940px;
+    margin: 0px auto;
+}
+
+.son2-con {
+    width: 1200px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.son2-con h3 {
+    float: left;
+    height: 40px;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.son2-con span {
+    width: 200px;
+    height: 30px;
+    float: left;
+    margin-left: 17px;
+    background: url(../images/jlt2.png) no-repeat 2px 5px;
+}
+
+.son2-box1 {
+    width: 1200px;
+    height: 816px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.son2-box1 ul {
+    float: left;
+}
+
+.son2-box1 ul li {
+    float: left;
+    border: 1px solid #dcdcdc;
+    margin: -1px -1px 0 0;
+}
+
+.y-warp {
+    width: 255px;
+    height: auto;
+    padding: 20px 22px;
+}
+
+.y-img {
+    width: 255px;
+    height: 255px;
+}
+
+.y-img a {
+    text-decoration: none;
+    color: #555;
+}
+
+.y-img img {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.y-price {
+    width: 100%;
+    overflow: hidden;
+    font-size: 16px;
+    color: #f42424;
+}
+
+del {
+    font-size: 12px;
+    color: #999;
+    margin-left: 16px;
+    line-height: 36px;
+    text-decoration: line-through;
+}
+
+.y-name {
+    font-size: 12px;
+}
+
+.y-name a {
+    display: block;
+    font-size: 14px;
+    color: #2b2b2b;
+    line-height: 24px;
+    font-family: "microsoft yahei";
+    height: 48px;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.y-info {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+.y-left {
+    width: 100%;
+    overflow: hidden;
+}
+
+.y-info span {
+    float: right;
+}
+
+.y-info span em {
+    color: red;
+}
+
+.time {
+    float: left;
+    color: #ffc33a;
+}
+
+.y-info p {
+    color: #999;
+    margin-top: 5px;
+}
+
+.y-info p a {
+    color: #999;
+    text-decoration: none;
+}
+
+.header-max-nav ul li a {
+    color: black;
+}
+
+
+/* .header-max-nav ul li:first-child{
+    color: red;
+} */
+
+.header-max-nav ul li:nth-child(1) a {
+    color: red;
+}

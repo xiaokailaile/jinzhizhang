@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/base1.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../fonts/iconfont.css">
+    <!-- 轮播css -->
+    <link rel="stylesheet" href="../css/Ycarousel.css">
+    <link rel="stylesheet" href="../css/swiper.css">
+
+
+
+
+    <script src="../js/jquery-3.4.1.js"></script>
+    <style>
+        .swiper-container {
+            width: 600px;
+            height: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header class="header">
+        <div class="header-topNav">
+            <div class="header-top">
+                <div class="fl header-top-left">
+                    <div class="header-icon   fl">
+                        <i class="iconfont .icon-weizhi red">&#xe61b;</i>
+                        <span>郑州市</span>
+                        <div class="header-zen"></div>
+                    </div>
+                    <!-- 位置搜索 -->
+                    <div class="header-location">
+                        <div class="header-hot">
+                            <a href="#">苏州市</a>
+                            <a href="#">北京市</a>
+                            <a href="#">天津市</a>
+                            <a href="#">上海市</a>
+                        </div>
+                        <div class="header-letter">
+                            <a href="#" data-letter="A">A</a>
+                            <a href="#" data-letter="B">B</a>
+                            <a href="#" data-letter="C">C</a>
+                            <a href="#" data-letter="D">D</a>
+                            <a href="#" data-letter="E">E</a>
+                            <a href="#" data-letter="F">F</a>
+                            <a href="#" data-letter="G">G</a>
+                            <a href="#" data-letter="H">H</a>
+                            <a href="#" data-letter="J">J</a>
+                            <a href="#" data-letter="K">K</a>
+                            <a href="#" data-letter="L">L</a>
+                            <a href="#" data-letter="M">M</a>
+                            <a href="#" data-letter="N">N</a>
+                            <a href="#" data-letter="P">P</a>
+                            <a href="#" data-letter="Q">Q</a>
+                            <a href="#" data-letter="R">R</a>
+                            <a href="#" data-letter="S">S</a>
+                            <a href="#" data-letter="T">T</a>
+                            <a href="#" data-letter="W">W</a>
+                            <a href="#" data-letter="X">X</a>
+                            <a href="#" data-letter="Y">Y</a>
+                            <a href="#" data-letter="Z">Z</a>
+                        </div>
+                        <div class="header-scrollboty">
+                            <div class="header-allList fl">
+                                <ul id="header-lists">
+                                    <li>
+                                        <em data-name="A">A</em>
+                                        <div class="header-item-city">
+                                            <a href="#">安庆市</a>
+                                            <a href="#">安阳市</a>
+                                            <a href="#">安康市</a>
+                                            <a href="#">安顺市</a>
+                                            <a href="#">澳门</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <em data-name="B">B</em>
+                                        <div class="header-item-city">
+                                            <a href="#">安庆市</a>
+                                            <a href="#">安阳市</a>
+                                            <a href="#">安康市</a>
+                                            <a href="#">安顺市</a>
+                                            <a href="#">澳门</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <em data-name="C">C</em>
+                                        <div class="header-item-city">
+                                            <a href="#">安庆市</a>
+                                            <a href="#">安阳市</a>
+                                            <a href="#">安康市</a>
+                                            <a href="#">安顺市</a>
+                                            <a href="#">澳门</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <em data-name="D">D</em>
+                                        <div class="header-item-city">
+                                            <a href="#">安庆市</a>
+                                            <a href="#">安阳市</a>
+                                            <a href="#">安康市</a>
+                                            <a href="#">安顺市</a>
+                                            <a href="#">澳门</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <em data-name="E">E</em>
+                                        <div class="header-item-city">
+                                            <a href="#">安庆市</a>
+                                            <a href="#">安阳市</a>
+                                            <a href="#">安康市</a>
+                                            <a href="#">安顺市</a>
+                                            <a href="#">澳门</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <em data-name="F">F</em>
+                                        <div class="header-item-city">
+                                            <a href="#">安庆市</a>
+                                            <a href="#">安阳市</a>
+                                            <a href="#">安康市</a>
+                                            <a href="#">安顺市</a>
+                                            <a href="#">澳门</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <em data-name="G">G</em>
+                                        <div class="header-item-city">
+                                            <a href="#">安庆市</a>
+                                            <a href="#">安阳市</a>
+                                            <a href="#">安康市</a>
+                                            <a href="#">安顺市</a>
+                                            <a href="#">澳门</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <em data-name="H">H</em>
+                                        <div class="header-item-city">
+                                            <a href="#">安庆市</a>
+                                            <a href="#">安阳市</a>
+                                            <a href="#">安康市</a>
+                                            <a href="#">安顺市</a>
+                                            <a href="#">澳门</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <em data-name="J">J</em>
+                                        <div class="header-item-city">
+                                            <a href="#">安庆市</a>
+                                            <a href="#">安阳市</a>
+                                            <a href="#">安康市</a>
+                                            <a href="#">安顺市</a>
+                                            <a href="#">澳门</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <em data-name="K">K</em>
+                                        <div class="header-item-city">
+                                            <a href="#">安庆市</a>
+                                            <a href="#">安阳市</a>
+                                            <a href="#">安康市</a>
+                                            <a href="#">安顺市</a>
+                                            <a href="#">澳门</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <em data-name="L">L</em>
+                                        <div class="header-item-city">
+                                            <a href="#">安庆市</a>
+                                            <a href="#">安阳市</a>
+                                            <a href="#">安康市</a>
+                                            <a href="#">安顺市</a>
+                                            <a href="#">澳门</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <em data-name="M">M</em>
+                                        <div class="header-item-city">
+                                            <a href="#">安庆市</a>
+                                            <a href="#">安阳市</a>
+                                            <a href="#">安康市</a>
+                                            <a href="#">安顺市</a>
+                                            <a href="#">澳门</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <em data-name="N">N</em>
+                                        <div class="header-item-city">
+                                            <a href="#">安庆市</a>
+                                            <a href="#">安阳市</a>
+                                            <a href="#">安康市</a>
+                                            <a href="#">安顺市</a>
+                                            <a href="#">澳门</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <em data-name="P">P</em>
+                                        <div class="header-item-city">
+                                            <a href="#">安庆市</a>
+                                            <a href="#">安阳市</a>
+                                            <a href="#">安康市</a>
+                                            <a href="#">安顺市</a>
+                                            <a href="#">澳门</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <em data-name="Q">Q</em>
+                                        <div class="header-item-city">
+                                            <a href="#">安庆市</a>
+                                            <a href="#">安阳市</a>
+                                            <a href="#">安康市</a>
+                                            <a href="#">安顺市</a>
+                                            <a href="#">澳门</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <em data-name="R">R</em>
+                                        <div class="header-item-city">
+                                            <a href="#">安庆市</a>
+                                            <a href="#">安阳市</a>
+                                            <a href="#">安康市</a>
+                                            <a href="#">安顺市</a>
+                                            <a href="#">澳门</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <em data-name="S">S</em>
+                                        <div class="header-item-city">
+                                            <a href="#">安庆市</a>
+                                            <a href="#">安阳市</a>
+                                            <a href="#">安康市</a>
+                                            <a href="#">安顺市</a>
+                                            <a href="#">澳门</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <em data-name="T">T</em>
+                                        <div class="header-item-city">
+                                            <a href="#">安庆市</a>
+                                            <a href="#">安阳市</a>
+                                            <a href="#">安康市</a>
+                                            <a href="#">安顺市</a>
+                                            <a href="#">澳门</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <em data-name="W">W</em>
+                                        <div class="header-item-city">
+                                            <a href="#">安庆市</a>
+                                            <a href="#">安阳市</a>
+                                            <a href="#">安康市</a>
+                                            <a href="#">安顺市</a>
+                                            <a href="#">澳门</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <em data-name="X">X</em>
+                                        <div class="header-item-city">
+                                            <a href="#">安庆市</a>
+                                            <a href="#">安阳市</a>
+                                            <a href="#">安康市</a>
+                                            <a href="#">澳门</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <em data-name="Y">Y</em>
+                                        <div class="header-item-city">
+                                            <a href="#">安庆市</a>
+                                            <a href="#">安阳市</a>
+                                            <a href="#">安康市</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <em data-name="Z">Z</em>
+                                        <div class="header-item-city">
+                                            <a href="#">郑州市</a>
+                                            <a href="#" class="city-selected">周口市</a>
+                                            <a href="#">驻马店市</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="header-scorllBar">
+                                <p class="header-bar"></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="fl header-enter">
+                        <span class="red"><a href="record.html" target="_blank" class="red">请登录</a> </span>
+                        <span><a href="#" class="log">免费注册</a> </span>
+                    </div>
+                </div>
+                <ul class="fr header-top-right">
+                    <li><a href="#">我的订单</a></li>
+                    <li class="header-spacer"></li>
+                    <li><a href="#">我的浏览</a></li>
+                    <li class="header-spacer"></li>
+                    <li><a href="#">我的收藏</a></li>
+                    <li class="header-spacer"></li>
+                    <li><a href="#">客户服务</a></li>
+                    <li class="header-spacer"></li>
+                    <li class="header-for">
+                        网站导航<i class="iconfont .icon-down">&#xe600;</i>
+                        <div class="header-dorpdown1">
+                            <div class="header-fore-white"></div>
+                            <dl class="header-fore1 fl">
+                                <dt>特色主题</dt>
+                                <dd><a href="#">家用电器</a></dd>
+                                <dd><a href="#">男装女装</a></dd>
+                                <dd><a href="#">鞋靴箱包</a></dd>
+                            </dl>
+                            <dl class="header-fore2 fl">
+                                <dt>促销活动</dt>
+                                <dd><a href="#">拍卖活动</a></dd>
+                                <dd><a href="#">共创商品</a></dd>
+                                <dd><a href="#">积分商城</a></dd>
+                                <dd><a href="#">CMS频道</a></dd>
+                                <dd><a href="#">优惠活动</a></dd>
+                                <dd><a href="#">超值礼包</a></dd>
+                                <dd><a href="#">优惠券</a></dd>
+                                <dd><a href="#">礼品卡</a></dd>
+                                <dd><a href="#">预售商品</a></dd>
+                            </dl>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-nav">
+            <div class="header-nav-top">
+                <div class="header-logo fl ">
+                    <a href="index.html"><img src="../images/shop_logo.gif" alt=""></a>
+
+                </div>
+                <div class="header-search fl">
+                    <form action="">
+                        <input type="text" placeholder="周大福">
+                        <button>搜商品</button>
+                        <button>搜店铺</button>
+                    </form>
+                    <ul>
+                        <li>
+                            <a href="#">周大福</a>
+                        </li>
+                        <li>
+                            <a href="#">内衣</a>
+                        </li>
+                        <li>
+                            <a href="#">Five Plus</a>
+                        </li>
+                        <li>
+                            <a href="#">手机</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header-shopping fr">
+                    <a href="shapr.html">
+                        <i class="iconfont .icon-03" id="icon-font">&#xe7bd;</i>
+                        <span class="red">我的购物车</span>
+                        <em class="em-bord">0</em>
+                    </a>
+                </div>
+                <div class="header-dorpdown">
+                    <div class="header-noggods">
+                        <img src="images/cart-nogoods.png" class="fl" alt="">
+                        <span>购物车中还没有商品，赶紧选购吧！</span>
+                    </div>
+                    <div class="header-white"></div>
+                </div>
+            </div>
+            <div class="header-nav-buttom">
+                <div class="header-cat">
+                    <a>全部商品分类</a>
+                    <!-- //二级导航 -->
+                    <div class="header-twonav">
+                        <ul class="twonav-ul">
+                            <li>
+                                <div class="icon-a "></div>
+                                <a href="#">
+                                    <span>智娱智乐</span>
+                                </a>
+                            </li>
+                            <li>
+                                <div class="icon-b"></div>
+                                <a href="#">
+                                    <span>手机通讯</span>
+                                </a>
+                            </li>
+                            <li>
+                                <div class="icon-c"></div>
+                                <a href="#">
+                                    <span>电脑数码</span>
+                                </a>
+                            </li>
+                            <li>
+                                <div class="icon-d"></div>
+                                <a href="#">
+                                    <span>家用电器</span>
+                                </a>
+                            </li>
+                            <li>
+                                <div class="icon-e"></div>
+                                <a href="#">
+                                    <span>家具家装</span>
+                                </a>
+                            </li>
+                            <li>
+                                <div class="icon-f"></div>
+                                <a href="#">
+                                    <span>食品生鲜</span>
+                                </a>
+                            </li>
+                            <li>
+                                <div class="icon-g"></div>
+                                <a href="#">
+                                    <span>图书音像</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- 全部商品下的tab切换  -->
+
+                <div class="header-max-nav ">
+                    <ul>
+                        <li><a href="presell1.html">首页</a></li>
+                        <li><a href="presell2.html">新品发布</a></li>
+                        <li><a href="presell3.html">抢先定</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <body>
+        <!-- 轮播图 -->
+        <!-- 轮播图最大的盒子 -->
+        <div class="carousel">
+            <!-- 放置图片内容盒子 -->
+            <div class="cal-list">
+                <!-- ul整体 -->
+                <ul class="viewpage">
+                    <li>
+                        <div class="img1">
+                            <!-- //target="_blank" -->
+                            <a href="#">
+                                <img src="../images/1.png" alt="">
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img1">
+                            <a href="#">
+                                <img src="../images/2.png" alt="">
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img1">
+                            <a href="#">
+                                <img src="../images/3.png" alt="">
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+                <!-- 放置左右按钮 -->
+                <div class="prev">&lt;</div>
+                <div class="next">&gt;</div>
+            </div>
+            <!-- 小圆点 -->
+            <div class="circle-list">
+                <span class="circle active"></span>
+                <span class="circle"></span>
+                <span class="circle"></span>
+            </div>
+        </div>
+        <!-- 主体 -->
+        <div class="body-father">
+            <!-- 主体一 -->
+            <div class="son1">
+                <h1>招牌推荐</h1>
+                <div class="son1-box">
+                    <!-- //左 -->
+                    <div class="son1-box-l">
+                        <img src="../images/1-2-1.png" alt="">
+                    </div>
+                    <!-- //中间轮播 -->
+                    <div class="son1-box-conter">
+                        <!-- 2.写入轮播的html -->
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="../images/1-2-2.png" alt=""></div>
+                                <div class="swiper-slide"><img src="../images/1-2-3.png" alt=""></div>
+                                <div class="swiper-slide"><img src="../images/1-2-4.png" alt=""></div>
+                            </div>
+                            <!-- 如果需要分页器 -->
+                            <div class="swiper-pagination"></div>
+
+                            <!-- 如果需要导航按钮 -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                    </div>
+                    <!-- //右 -->
+                    <div class="son1-box-r">
+                        <img src="../images/1-2-5.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- 主体二 -->
+            <div class="son2">
+                <div class="son2-con">
+                    <h3>家居家装</h3>
+                    <a href="#">
+                        <span></span>
+                    </a>
+
+                </div>
+                <div class="son2-box1">
+                    <ul>
+                        <li class="son2-bo">
+                            <div class="y-warp">
+                                <div class="y-img">
+                                    <a href="#">
+                                        <img alt="">
+                                    </a>
+                                </div>
+                                <div class="y-price">
+                                    <span class="jinq"></span>
+                                    <del>¥153.60</del>
+                                </div>
+                                <div class="y-name">
+                                    <a href="#" title="马克华菲长袖T恤男士圆领修身韩版刺绣纯棉2017春装新款潮t 7002 立体3D绣花 欧美潮流范 17春装新品" target="_blank"></a>
+                                </div>
+                                <div class="y-info">
+                                    <div class="y-left">
+                                        <div class="time"></div>
+                                        <span>
+                                            已有
+                                            <em>1</em>
+                                            人预约
+                                        </span>
+                                    </div>
+                                    <p>
+                                        预售商家:
+                                        <a href="#" title="商创自营" class="name">商创自营</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="son2-bo">
+                            <div class="y-warp">
+                                <div class="y-img">
+                                    <a href="#">
+                                        <img alt="">
+                                    </a>
+                                </div>
+                                <div class="y-price">
+                                    <span class="jinq"></span>
+                                    <del>¥153.60</del>
+                                </div>
+                                <div class="y-name">
+                                    <a href="#" title="马克华菲长袖T恤男士圆领修身韩版刺绣纯棉2017春装新款潮t 7002 立体3D绣花 欧美潮流范 17春装新品" target="_blank"></a>
+                                </div>
+                                <div class="y-info">
+                                    <div class="y-left">
+                                        <div class="time"></div>
+                                        <span>
+                                            已有
+                                            <em>1</em>
+                                            人预约
+                                        </span>
+                                    </div>
+                                    <p>
+                                        预售商家:
+                                        <a href="#" title="商创自营" class="name">商创自营</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="son2-bo">
+                            <div class="y-warp">
+                                <div class="y-img">
+                                    <a href="#">
+                                        <img alt="">
+                                    </a>
+                                </div>
+                                <div class="y-price">
+                                    <span class="jinq"></span>
+                                    <del>¥153.60</del>
+                                </div>
+                                <div class="y-name">
+                                    <a href="#" title="马克华菲长袖T恤男士圆领修身韩版刺绣纯棉2017春装新款潮t 7002 立体3D绣花 欧美潮流范 17春装新品" target="_blank"></a>
+                                </div>
+                                <div class="y-info">
+                                    <div class="y-left">
+                                        <div class="time"></div>
+                                        <span>
+                                            已有
+                                            <em>1</em>
+                                            人预约
+                                        </span>
+                                    </div>
+                                    <p>
+                                        预售商家:
+                                        <a href="#" title="商创自营" class="name">商创自营</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <!-- 底部 -->
+    <footer style="width: 100%;">
+        <!-- 白色区域 -->
+        <div class="footer-top">
+            <div class="layer">
+                <ul class="fl">
+                    <li>
+                        <i></i>
+                        <span>七天包退</span>
+                    </li>
+                    <li>
+                        <i></i>
+                        <span>正品保障</span>
+                    </li>
+                    <li>
+                        <i></i>
+                        <span>好评如潮</span>
+                    </li>
+                    <li>
+                        <i></i>
+                        <span>闪电发货</span>
+                    </li>
+                    <li>
+                        <i></i>
+                        <span>权威荣誉</span>
+                    </li>
+                </ul>
+                <div class="footer-top-right fr">
+                    <p>
+                        <i></i>
+                        <span>4001-021-758</span>
+                    </p>
+                    <p>
+                        <i></i>
+                        <span>咨询客服</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 尾巴中部 -->
+        <div class="footer-center">
+            <div class="fnc-warp layer clearfix">
+                <!-- 列表 -->
+                <div class="help-list fl">
+                    <div class="help-item">
+                        <h3>新手上路</h3>
+                        <ul>
+                            <li><a href="#">售后流程</a></li>
+                            <li><a href="#">购物流程</a></li>
+                            <li><a href="#">订购方式</a></li>
+                        </ul>
+                    </div>
+                    <div class="help-item">
+                        <h3>配送与支付</h3>
+                        <ul>
+                            <li><a href="#">货到付款区域</a></li>
+                            <li><a href="#">配送支付智能查询</a></li>
+                            <li><a href="#">支付方式说明</a></li>
+                        </ul>
+                    </div>
+                    <div class="help-item">
+                        <h3>服务保证</h3>
+                        <ul>
+                            <li><a href="#">退换货原则</a></li>
+                            <li><a href="#">售后服务保证</a></li>
+                            <li><a href="#">产品质量保证</a></li>
+                        </ul>
+                    </div>
+                    <div class="help-item">
+                        <h3>联系我们</h3>
+                        <ul>
+                            <li><a href="#">网站故障报告</a></li>
+                            <li><a href="#">选机咨询</a></li>
+                            <li><a href="#">投诉与建议</a></li>
+                        </ul>
+                    </div>
+                    <div class="help-item">
+                        <h3>会员中心</h3>
+                        <ul>
+                            <li><a href="#">资金管理</a></li>
+                            <li><a href="#">我的收藏</a></li>
+                            <li><a href="#">我的订单</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 二维码 -->
+                <div class="qr-code fr">
+                    <!-- 微信二维码 -->
+                    <div class="qr-item fl">
+                        <div class="code_img"><img src="../images/ecjia_qrcode.jpg"></div>
+                        <div class="text">关注微信</div>
+                    </div>
+                    <!-- APP二维码 -->
+                    <div class="qr-item fr">
+                        <div class="code_img"><img src="../images/ectouch_qrcode.jpg"></div>
+                        <div class="text">下载APP</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 尾巴底部 -->
+        <div class="footer-bot">
+            <div class="layer clearfix">
+                <!-- 第一行 -->
+                <p class="copyright_links">
+                    <a href="#">首页</a>
+                    <span></span>
+                    <a href="#">隐私保护</a>
+                    <span></span>
+                    <a href="#">联系我们</a>
+                    <span></span>
+                    <a href="#">免责条款</a>
+                    <span></span>
+                    <a href="#">公司简介</a>
+                    <span></span>
+                    <a href="#">商家入驻</a>
+                    <span></span>
+                    <a href="#">供应商入驻</a>
+                    <span></span>
+                    <a href="#">意见反馈</a>
+                </p>
+                <!-- 第二行 -->
+                <p class="copyright_links">
+                    <a href="#">b2b2c</a>
+                    <span></span>
+                    <a href="#">多用户商城系统</a>
+                    <span></span>
+                    <a href="#">商城系统</a>
+                    <span></span>
+                    <a href="#">ecjia新零售</a>
+                </p>
+                <p class="copyright_auth clearfix">&nbsp;</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // 绑定选中事件
+        $('.header-max-nav li a').click(function() {
+            $(this).find('a').css('color', 'red').sibling().css('color', '');
+        });
+    </script>
+    <script src="../js/swiper.js"></script>
+    <script>
+        // 轮播
+        var mySwiper = new Swiper('.swiper-container', {
+            direction: 'horizontal', //水平切换选项
+            loop: true, // 循环模式选项
+
+            // 如果需要分页器
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: 'true',
+            },
+            // 自动轮播
+            autoplay: {
+                delay: 2000,
+                pauseOnMouseEnter: true,
+                disableOnInteraction: false,
+            },
+            // 如果需要前进后退按钮
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+
+    <!-- 头部js -->
+    <script src="../js/header.js"></script>
+    <!-- 轮播js -->
+    <script src="../js/Ycarousel.js"></script>
+    <!-- 时间js -->
+    <script src="../js/y-time.js"></script>
+    <!-- 渲染js -->
+    <script src="../js/xuanran.js"></script>
+</body>
+
+</html>

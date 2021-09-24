@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.y-tox {
+    width: 1200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.tox-son {
+    width: 350px;
+    height: 180px;
+    margin: 80px auto;
+}
+
+.y-son-bg {
+    width: 188px;
+    height: 104px;
+    float: left;
+}
+
+.y-son-rit {
+    float: left;
+    margin-left: 25px;
+}
+
+.y-son-rit h3 {
+    margin-top: 8px;
+    line-height: 25px;
+    color: #8c8c8c;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+}
+
+.not-btn {
+    margin-top: 15px;
+}
+
+.not-btn a {
+    background: #f42424;
+    border-color: #f42424;
+    color: #fff;
+    padding: 0 10px;
+    height: 23px;
+    line-height: 23px;
+    border: 1px solid #f42424;
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+
+/* //tab 切换 */
+
+.y-box1 {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0 0;
+    display: block;
+    /* display: none; */
+}
+
+.y-tox {
+    width: 1200px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 20px 0 0;
+    display: none;
+}
+
+
+/* //+++++++++++++++++++++++++++++++ */
+
+.son2 {
+    display: block;
+    /* display: none; */
+}
+
+.son2-y-tox {
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 20px 0 0;
+    display: none;
+}
